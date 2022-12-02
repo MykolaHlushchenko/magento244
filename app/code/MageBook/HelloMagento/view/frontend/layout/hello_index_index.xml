@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * MageBook HelloMagento module frontend layout.
+ *
+ * @author      Mykola Hlushchenko <mage.book.tools@gmail.com>
+ * @copyright   2022 MageBook
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" name="hello_magento" template="MageBook_HelloMagento::hello/mage.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
